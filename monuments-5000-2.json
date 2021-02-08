@@ -1,0 +1,952 @@
+[
+    {
+        "name": "OilrigAI2",
+        "displayName": "Large Oil Rig",
+        "position": {
+            "x": -560,
+            "y": 0,
+            "z": -2850
+        },
+        "rotation": 2
+    },
+    {
+        "name": "OilrigAI",
+        "displayName": "Oil Rig",
+        "position": {
+            "x": -2849,
+            "y": 0,
+            "z": 1092
+        },
+        "rotation": 145
+    },
+    {
+        "name": "lighthouse",
+        "displayName": "Lighthouse",
+        "position": {
+            "x": -2022,
+            "y": 0,
+            "z": 1485
+        },
+        "rotation": 8
+    },
+    {
+        "name": "lighthouse",
+        "displayName": "Lighthouse",
+        "position": {
+            "x": 2,
+            "y": 0,
+            "z": 1880
+        },
+        "rotation": 92
+    },
+    {
+        "name": "cave_small_hard",
+        "displayName": null,
+        "position": {
+            "x": -1359,
+            "y": 21,
+            "z": -95
+        },
+        "rotation": 222
+    },
+    {
+        "name": "cave_small_medium",
+        "displayName": null,
+        "position": {
+            "x": -312,
+            "y": 44,
+            "z": -1123
+        },
+        "rotation": 345
+    },
+    {
+        "name": "cave_small_easy",
+        "displayName": null,
+        "position": {
+            "x": -1251,
+            "y": 10,
+            "z": -1523
+        },
+        "rotation": 304
+    },
+    {
+        "name": "cave_small_medium",
+        "displayName": null,
+        "position": {
+            "x": 966,
+            "y": 24,
+            "z": -1747
+        },
+        "rotation": 207
+    },
+    {
+        "name": "cave_small_hard",
+        "displayName": null,
+        "position": {
+            "x": 2010,
+            "y": 40,
+            "z": 855
+        },
+        "rotation": 222
+    },
+    {
+        "name": "cave_small_medium",
+        "displayName": null,
+        "position": {
+            "x": -1610,
+            "y": 32,
+            "z": 1360
+        },
+        "rotation": 336
+    },
+    {
+        "name": "cave_large_sewers_hard",
+        "displayName": null,
+        "position": {
+            "x": -561,
+            "y": 28,
+            "z": -249
+        },
+        "rotation": 90
+    },
+    {
+        "name": "cave_small_easy",
+        "displayName": null,
+        "position": {
+            "x": 829,
+            "y": 42,
+            "z": -54
+        },
+        "rotation": 177
+    },
+    {
+        "name": "cave_small_easy",
+        "displayName": null,
+        "position": {
+            "x": 1775,
+            "y": 24,
+            "z": 1754
+        },
+        "rotation": 60
+    },
+    {
+        "name": "cave_medium_medium",
+        "displayName": null,
+        "position": {
+            "x": -203,
+            "y": 43,
+            "z": 662
+        },
+        "rotation": 216
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": -1685,
+            "y": 12,
+            "z": 1978
+        },
+        "rotation": 320
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": -1039,
+            "y": 6,
+            "z": 1219
+        },
+        "rotation": 30
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": 867,
+            "y": 32,
+            "z": 2038
+        },
+        "rotation": 7
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": 1295,
+            "y": 18,
+            "z": 1024
+        },
+        "rotation": 283
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": -1948,
+            "y": 53,
+            "z": -1317
+        },
+        "rotation": 353
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": -1310,
+            "y": 29,
+            "z": -897
+        },
+        "rotation": 16
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": -2090,
+            "y": 18,
+            "z": -266
+        },
+        "rotation": 263
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": -1092,
+            "y": 23,
+            "z": -927
+        },
+        "rotation": 124
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": -484,
+            "y": 34,
+            "z": 1677
+        },
+        "rotation": 143
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": -777,
+            "y": 49,
+            "z": 1265
+        },
+        "rotation": 165
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": 356,
+            "y": 40,
+            "z": 1002
+        },
+        "rotation": 63
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": 101,
+            "y": 22,
+            "z": 1167
+        },
+        "rotation": 301
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": 814,
+            "y": 22,
+            "z": -2203
+        },
+        "rotation": 270
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": 296,
+            "y": 1,
+            "z": -1775
+        },
+        "rotation": 357
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": -86,
+            "y": 34,
+            "z": -1948
+        },
+        "rotation": 200
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": 469,
+            "y": 37,
+            "z": -1250
+        },
+        "rotation": 347
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": -1084,
+            "y": 20,
+            "z": 889
+        },
+        "rotation": 32
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": 2030,
+            "y": 5,
+            "z": 108
+        },
+        "rotation": 359
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": 1873,
+            "y": 27,
+            "z": 401
+        },
+        "rotation": 308
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": 1159,
+            "y": 29,
+            "z": 484
+        },
+        "rotation": 183
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": 1317,
+            "y": 28,
+            "z": 792
+        },
+        "rotation": 27
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": -18,
+            "y": 40,
+            "z": -379
+        },
+        "rotation": 92
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": -221,
+            "y": 36,
+            "z": -559
+        },
+        "rotation": 283
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": -206,
+            "y": 35,
+            "z": -604
+        },
+        "rotation": 331
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": -626,
+            "y": 20,
+            "z": -476
+        },
+        "rotation": 299
+    },
+    {
+        "name": "power_sub_big_2",
+        "displayName": null,
+        "position": {
+            "x": -792,
+            "y": 12,
+            "z": 394
+        },
+        "rotation": 359
+    },
+    {
+        "name": "power_sub_big_1",
+        "displayName": null,
+        "position": {
+            "x": -1077,
+            "y": 24,
+            "z": -972
+        },
+        "rotation": 180
+    },
+    {
+        "name": "power_sub_small_2",
+        "displayName": null,
+        "position": {
+            "x": -369,
+            "y": 24,
+            "z": 1950
+        },
+        "rotation": 29
+    },
+    {
+        "name": "power_sub_small_1",
+        "displayName": null,
+        "position": {
+            "x": 231,
+            "y": 38,
+            "z": 989
+        },
+        "rotation": 194
+    },
+    {
+        "name": "power_sub_small_2",
+        "displayName": null,
+        "position": {
+            "x": -1738,
+            "y": 7,
+            "z": -327
+        },
+        "rotation": 320
+    },
+    {
+        "name": "power_sub_small_1",
+        "displayName": null,
+        "position": {
+            "x": -1903,
+            "y": 20,
+            "z": -1393
+        },
+        "rotation": 171
+    },
+    {
+        "name": "power_sub_small_1",
+        "displayName": null,
+        "position": {
+            "x": -1697,
+            "y": 3,
+            "z": 2088
+        },
+        "rotation": 101
+    },
+    {
+        "name": "power_sub_small_1",
+        "displayName": null,
+        "position": {
+            "x": -471,
+            "y": 27,
+            "z": 1715
+        },
+        "rotation": 126
+    },
+    {
+        "name": "power_sub_small_2",
+        "displayName": null,
+        "position": {
+            "x": 43,
+            "y": 37,
+            "z": -463
+        },
+        "rotation": 162
+    },
+    {
+        "name": "power_sub_small_1",
+        "displayName": null,
+        "position": {
+            "x": 867,
+            "y": 6,
+            "z": 2136
+        },
+        "rotation": 90
+    },
+    {
+        "name": "power_sub_small_1",
+        "displayName": null,
+        "position": {
+            "x": -1874,
+            "y": 11,
+            "z": -104
+        },
+        "rotation": 303
+    },
+    {
+        "name": "power_sub_small_1",
+        "displayName": null,
+        "position": {
+            "x": -1694,
+            "y": 21,
+            "z": -1255
+        },
+        "rotation": 90
+    },
+    {
+        "name": "power_sub_small_2",
+        "displayName": null,
+        "position": {
+            "x": -126,
+            "y": 36,
+            "z": -1990
+        },
+        "rotation": 164
+    },
+    {
+        "name": "power_sub_small_2",
+        "displayName": null,
+        "position": {
+            "x": -1411,
+            "y": 5,
+            "z": 1973
+        },
+        "rotation": 304
+    },
+    {
+        "name": "power_sub_small_1",
+        "displayName": null,
+        "position": {
+            "x": -674,
+            "y": 24,
+            "z": 1913
+        },
+        "rotation": 160
+    },
+    {
+        "name": "power_sub_small_1",
+        "displayName": null,
+        "position": {
+            "x": -1530,
+            "y": 32,
+            "z": 576
+        },
+        "rotation": 219
+    },
+    {
+        "name": "power_sub_small_1",
+        "displayName": null,
+        "position": {
+            "x": -316,
+            "y": 29,
+            "z": -989
+        },
+        "rotation": 259
+    },
+    {
+        "name": "power_sub_small_2",
+        "displayName": null,
+        "position": {
+            "x": -644,
+            "y": 30,
+            "z": 291
+        },
+        "rotation": 90
+    },
+    {
+        "name": "supermarket_1",
+        "displayName": "Abandoned Supermarket",
+        "position": {
+            "x": 15,
+            "y": 7,
+            "z": 1143
+        },
+        "rotation": 137
+    },
+    {
+        "name": "warehouse",
+        "displayName": "Mining Outpost",
+        "position": {
+            "x": 576,
+            "y": 19,
+            "z": -1093
+        },
+        "rotation": 155
+    },
+    {
+        "name": "warehouse",
+        "displayName": "Mining Outpost",
+        "position": {
+            "x": 1840,
+            "y": 27,
+            "z": 322
+        },
+        "rotation": 304
+    },
+    {
+        "name": "supermarket_1",
+        "displayName": "Abandoned Supermarket",
+        "position": {
+            "x": -36,
+            "y": 18,
+            "z": -1478
+        },
+        "rotation": 34
+    },
+    {
+        "name": "gas_station_1",
+        "displayName": "Oxum's Gas Station",
+        "position": {
+            "x": 464,
+            "y": 8,
+            "z": 1561
+        },
+        "rotation": 331
+    },
+    {
+        "name": "supermarket_1",
+        "displayName": "Abandoned Supermarket",
+        "position": {
+            "x": -1465,
+            "y": 12,
+            "z": 719
+        },
+        "rotation": 352
+    },
+    {
+        "name": "warehouse",
+        "displayName": "Mining Outpost",
+        "position": {
+            "x": 1019,
+            "y": 21,
+            "z": -450
+        },
+        "rotation": 108
+    },
+    {
+        "name": "gas_station_1",
+        "displayName": "Oxum's Gas Station",
+        "position": {
+            "x": 64,
+            "y": 38,
+            "z": -335
+        },
+        "rotation": 314
+    },
+    {
+        "name": "gas_station_1",
+        "displayName": "Oxum's Gas Station",
+        "position": {
+            "x": -997,
+            "y": 17,
+            "z": -920
+        },
+        "rotation": 341
+    },
+    {
+        "name": "swamp_a",
+        "displayName": "Wild Swamp",
+        "position": {
+            "x": 399,
+            "y": 21,
+            "z": -68
+        },
+        "rotation": 75
+    },
+    {
+        "name": "swamp_b",
+        "displayName": "Wild Swamp",
+        "position": {
+            "x": -449,
+            "y": 20,
+            "z": -82
+        },
+        "rotation": 50
+    },
+    {
+        "name": "swamp_c",
+        "displayName": "Abandoned Cabins",
+        "position": {
+            "x": 299,
+            "y": 42,
+            "z": 1140
+        },
+        "rotation": 127
+    },
+    {
+        "name": "water_well_a",
+        "displayName": "Water Well",
+        "position": {
+            "x": 80,
+            "y": 7,
+            "z": -1605
+        },
+        "rotation": 76
+    },
+    {
+        "name": "water_well_b",
+        "displayName": "Water Well",
+        "position": {
+            "x": -982,
+            "y": 28,
+            "z": -1512
+        },
+        "rotation": 357
+    },
+    {
+        "name": "water_well_c",
+        "displayName": "Water Well",
+        "position": {
+            "x": 501,
+            "y": 53,
+            "z": 1058
+        },
+        "rotation": 344
+    },
+    {
+        "name": "water_well_c",
+        "displayName": "Water Well",
+        "position": {
+            "x": 1479,
+            "y": 3,
+            "z": -906
+        },
+        "rotation": 294
+    },
+    {
+        "name": "water_well_e",
+        "displayName": "Water Well",
+        "position": {
+            "x": 1418,
+            "y": 4,
+            "z": -1456
+        },
+        "rotation": 272
+    },
+    {
+        "name": "satellite_dish",
+        "displayName": "Satellite Dish",
+        "position": {
+            "x": 852,
+            "y": 70,
+            "z": 293
+        },
+        "rotation": 102
+    },
+    {
+        "name": "mining_quarry_b",
+        "displayName": "Stone Quarry",
+        "position": {
+            "x": 527,
+            "y": 51,
+            "z": -519
+        },
+        "rotation": 139
+    },
+    {
+        "name": "mining_quarry_a",
+        "displayName": "Sulfur Quarry",
+        "position": {
+            "x": -176,
+            "y": 41,
+            "z": -1232
+        },
+        "rotation": 182
+    },
+    {
+        "name": "sphere_tank",
+        "displayName": "The Dome",
+        "position": {
+            "x": -97,
+            "y": 38,
+            "z": 556
+        },
+        "rotation": 28
+    },
+    {
+        "name": "mining_quarry_c",
+        "displayName": "HQM Quarry",
+        "position": {
+            "x": -275,
+            "y": 39,
+            "z": -579
+        },
+        "rotation": 347
+    },
+    {
+        "name": "radtown_small_3",
+        "displayName": "Sewer Branch",
+        "position": {
+            "x": 1233,
+            "y": 11,
+            "z": 548
+        },
+        "rotation": 250
+    },
+    {
+        "name": "bandit_town",
+        "displayName": "Bandit Camp\n",
+        "position": {
+            "x": -1103,
+            "y": 14,
+            "z": -199
+        },
+        "rotation": 18
+    },
+    {
+        "name": "compound",
+        "displayName": "Outpost",
+        "position": {
+            "x": -1456,
+            "y": 31,
+            "z": 488
+        },
+        "rotation": 340
+    },
+    {
+        "name": "trainyard_1",
+        "displayName": "Train Yard",
+        "position": {
+            "x": -1910,
+            "y": 12,
+            "z": -247
+        },
+        "rotation": 281
+    },
+    {
+        "name": "airfield_1",
+        "displayName": "Airfield",
+        "position": {
+            "x": -586,
+            "y": 26,
+            "z": 119
+        },
+        "rotation": 137
+    },
+    {
+        "name": "powerplant_1",
+        "displayName": "Power Plant",
+        "position": {
+            "x": -1780,
+            "y": 18,
+            "z": -1406
+        },
+        "rotation": 216
+    },
+    {
+        "name": "junkyard_1",
+        "displayName": "Junkyard",
+        "position": {
+            "x": -504,
+            "y": 15,
+            "z": 1863
+        },
+        "rotation": 295
+    },
+    {
+        "name": "military_tunnel_1",
+        "displayName": "Military Tunnel",
+        "position": {
+            "x": -201,
+            "y": 17,
+            "z": -1843
+        },
+        "rotation": 219
+    },
+    {
+        "name": "water_treatment_plant_1",
+        "displayName": "Water Treatment Plant",
+        "position": {
+            "x": 321,
+            "y": 38,
+            "z": 807
+        },
+        "rotation": 144
+    },
+    {
+        "name": "excavator_1",
+        "displayName": "Giant Excavator Pit",
+        "position": {
+            "x": 673,
+            "y": 37,
+            "z": -797
+        },
+        "rotation": 0
+    },
+    {
+        "name": "launch_site_1",
+        "displayName": "Launch Site",
+        "position": {
+            "x": -132,
+            "y": 32,
+            "z": -740
+        },
+        "rotation": 310
+    },
+    {
+        "name": "fishing_village_a",
+        "displayName": "Large Fishing Village",
+        "position": {
+            "x": 904,
+            "y": 0,
+            "z": -2288
+        },
+        "rotation": 168
+    },
+    {
+        "name": "harbor_2",
+        "displayName": "Harbor",
+        "position": {
+            "x": 1019,
+            "y": 0,
+            "z": 2180
+        },
+        "rotation": 284
+    },
+    {
+        "name": "fishing_village_b",
+        "displayName": "Fishing Village",
+        "position": {
+            "x": -2200,
+            "y": 0,
+            "z": -251
+        },
+        "rotation": 252
+    },
+    {
+        "name": "fishing_village_c",
+        "displayName": "Fishing Village",
+        "position": {
+            "x": 2001,
+            "y": 0,
+            "z": 3
+        },
+        "rotation": 205
+    },
+    {
+        "name": "harbor_1",
+        "displayName": "Harbor",
+        "position": {
+            "x": -1541,
+            "y": 0,
+            "z": 2071
+        },
+        "rotation": 17
+    }
+]
