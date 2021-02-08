@@ -59,6 +59,9 @@
                 if(this.showInfo) {
                     this.showInfo = false;
                 }
+                if(this.showEntryList) {
+                    this.showEntryList = false;
+                }
             },
             onKeyDown(ev) {
                 switch(ev.keyCode) {
