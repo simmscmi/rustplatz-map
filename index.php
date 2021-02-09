@@ -24,7 +24,7 @@ if(!isset($_SESSION["csrfToken"])) {
             <div class="backdrop" v-if="showBackdrop" @click.stop="closeOverlays" />
 
             <div class="scaler">
-                <button title="Gesamtliste der Einträge" @click.stop="showEntryList = { sortKey : 'title' }">☰</button> 
+                <button title="Gesamtliste der Einträge" @click.stop="openEntryList">☰</button>
                 <input type="number" 
                     title="Zoomfaktor [%]"
                     min="100"
@@ -42,11 +42,21 @@ if(!isset($_SESSION["csrfToken"])) {
                 <table class="striped hoverable">
                     <thead>
                         <tr>
-                            <th @click.stop="showEntryList.sortKey = 'pq'">
-                                <span :class="{ sorted : showEntryList.sortKey == 'pq' }">Planquadrat</span>
+                            <th>
+                                <span
+                                    @click.stop="showEntryList.sortKey = 'pq'"
+                                    :class="{ sorted : showEntryList.sortKey == 'pq' }">Planquadrat</span>
                             </th>
-                            <th @click.stop="showEntryList.sortKey = 'title'">
-                                <span :class="{ sorted : showEntryList.sortKey == 'title' }">Titel</span>
+                            <th>
+                                <span
+                                    @click.stop="showEntryList.sortKey = 'title'"
+                                    :class="{ sorted : showEntryList.sortKey == 'title' }">Titel</span>
+                                <input
+                                    class="entry-list-search-input"
+                                    ref="entryListSearchInput"
+                                    type="text"
+                                    v-model="showEntryList.q"
+                                    placeholder="suche…">
                             </th>
                         </tr>
                     </thead>
@@ -181,5 +191,5 @@ if(!isset($_SESSION["csrfToken"])) {
         <div id="app" />
     </body>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js?<?php echo time(); ?>"></script>
 </html>

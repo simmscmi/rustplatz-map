@@ -242,7 +242,6 @@ textarea {
 }
 
 .entry-list table {
-    flex-grow:1;
     max-height: unset;
     padding:0;
 }
@@ -258,10 +257,21 @@ textarea {
     flex:unset;
 }
 
-.entry-list th {
+.entry-list th span {
     cursor:pointer;
 }
 
 .entry-list th span.sorted {
     text-decoration: underline;
+}
+
+.entry-list .entry-list-search-input {
+    padding:0;
+    margin:0;
+    margin-left:1em;
+    opacity:0.5;
+}
+
+.entry-list .entry-list-search-input:focus {
+    opacity: 1;
 }

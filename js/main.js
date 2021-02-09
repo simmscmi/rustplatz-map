@@ -43,6 +43,15 @@
             });
         },
         methods : {
+            openEntryList() {
+                this.showEntryList = {
+                    q : "",
+                    sortKey : 'title'
+                };
+                this.$nextTick(() => {
+                    this.$refs.entryListSearchInput.focus();
+                });
+            },
             itemSelected(i) {
                 this.showEntryList = false;
                 this.$nextTick(() => {
@@ -158,7 +167,7 @@
         },
         computed : {
             allItemsSorted() {
-                if(!this.items) return null;
+                if(!this.items) return [ ];
                 let idx = (i) => {
                     let retval = "";
                     if(i.col.length == 1) {
@@ -173,7 +182,7 @@
                     }
                     return retval;
                 };
-                return this.items.sort((a, b) => {
+                let retval = this.items.sort((a, b) => {
                     switch(this.showEntryList.sortKey) {
                     case "pq":
                         return idx(a).localeCompare(idx(b));
@@ -181,6 +190,13 @@
                         return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
                     }
                 });
+
+                if(this.showEntryList.q) {
+                    const regex = new RegExp(`(${this.showEntryList.q})`, "ig");
+                    return retval.filter(r => r.title.match(regex));
+                } else {
+                    return retval;
+                }
             },
             showBackdrop() {
                 return this.showEntriesForCoords || this.showInfo || this.showEntryList;
@@ -247,7 +263,9 @@
                 newV.forEach(i => {
                     this.itemAvailabilityMap[`${i.col}${i.row}`] = i;
                 });
-            }
+            },
+            "showEntryList.q"(newV) {
+            },
         },
     }).mount("#app");
 })();
