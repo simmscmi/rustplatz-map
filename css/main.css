@@ -244,6 +244,18 @@ textarea {
 .entry-list table {
     flex-grow:1;
     max-height: unset;
+    padding:0;
+}
+
+.entry-list table thead,
+.entry-list table tbody {
+    border:none;
+}
+
+.entry-list table td:first-child,
+.entry-list table th:first-child {
+    width:7em;
+    flex:unset;
 }
 
 .entry-list th {

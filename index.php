@@ -35,7 +35,7 @@ if(!isset($_SESSION["csrfToken"])) {
 
             <div class="entry-list overlay" v-if="showEntryList">
                 <div class="heading">
-                    Liste aller Einträge
+                    Liste aller {{ allItemsSorted.length }} Einträge
                     <span class="close-button" title="Schließen!" @click.stop="showEntryList = null">X</span>
                 </div>
 
